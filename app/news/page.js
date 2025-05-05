@@ -3,9 +3,18 @@ import Link from "next/link";
 export default function NewsPage() {
     return(
         <>
-        <Link href='news/05051'>News 1</Link><br />
-        <Link href='news/05052'>News 2</Link><br />
-        <Link href='news/05053'>News 3</Link>
+        <h1>News</h1>
+        <ul>
+                <li>
+                    <Link href='/news/first-news'>First News Item</Link>
+                </li>
+                <li>
+                    <Link href='/news/second-news'>Second News Item</Link>
+                </li>
+                <li>
+                    <Link href='/news/third-news'>Third News Item</Link>
+                </li>
+            </ul>
         </>
     )
 }
